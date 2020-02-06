@@ -6,7 +6,7 @@ module.exports = function(controller) {
 
   
     
-    controller.hears(['opening', 'job opportunities'],'message',async(bot, message) => {
+    controller.hears(['opening', 'work' , 'job', 'job opportunities'],'message',async(bot, message) => {
         await bot.reply(message, {
             text: 'Are you looking for a job opportunity??',
             quick_replies: [
