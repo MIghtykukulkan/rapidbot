@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "api-ai-botkit": "^1.1.1",
     "botbuilder-adapter-web": "^1.0.6",
     "botbuilder-storage-mongodb": "^0.9.5",
     "botkit": "^4.6.2",
